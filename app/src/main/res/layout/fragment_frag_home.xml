@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragHome"
+    android:background="#9C6CFE"
+
+    >
+    <!-- pinakamahalagang Fragment
+    dito ilalagay lahat ng design sa home
+    -    button para sa qr
+    -    widgets bla bla bla
+    -->
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/nobg_ic_app_logo"
+    android:layout_marginTop="-5dp"
+/>
+
+
+    <TextView
+        android:id="@+id/frag1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="160dp"
+
+        android:layout_marginBottom="15dp"
+        android:text="Welcome!"
+        android:textColor="#FCFEFA"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-900dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_transaction" />
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/label"
+        android:layout_width="310dp"
+        android:layout_height="57dp"
+        android:layout_below="@id/frag1_text"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="205dp"
+        android:src="@drawable/ic_label_final" />
+
+
+    <ImageView
+        android:id="@+id/labeltwo"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag1_text"
+
+        android:layout_marginTop="285dp"
+        android:src="@drawable/ic_label2_final" />
+
+    <ImageView
+        android:id="@+id/balance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag1_text"
+        android:layout_marginTop="-89dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/bg_balance_final_ulet" />
+
+
+
+
+
+    <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/balance"
+            android:layout_marginTop="-40dp">
+
+            <ImageButton
+                android:id="@+id/one"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/ic_send_35"
+                android:background="@drawable/ripple_effect"
+               />
+
+            <ImageButton
+                android:id="@+id/two"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/ic_request_35"
+                android:background="@drawable/ripple_effect"
+               />
+
+            <ImageButton
+                android:id="@+id/three"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/ic_bank_35"
+                android:background="@drawable/ripple_effect"
+               />
+            <ImageButton
+                android:id="@+id/four"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="18dp"
+                android:src="@drawable/ic_bill_35"
+                android:background="@drawable/ripple_effect"
+               />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+                android:id="@+id/buttons2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@id/balance"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/five"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="18dp"
+                    android:src="@drawable/ic_game_35_final"
+                    android:background="@drawable/ripple_effect"
+                    />
+
+                <ImageButton
+                    android:id="@+id/six"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="18dp"
+                    android:src="@drawable/ic_food_35_final"
+                    android:background="@drawable/ripple_effect"
+                    />
+                <ImageButton
+                    android:id="@+id/seven"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="18dp"
+                    android:src="@drawable/ic_load_35"
+                    android:background="@drawable/ripple_effect"
+                    />
+                <ImageButton
+                    android:id="@+id/eight"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="18dp"
+                    android:src="@drawable/ic_reward_35"
+                    android:background="@drawable/ripple_effect"
+                    />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

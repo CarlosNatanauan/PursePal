@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInPage">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordLayout"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:hint="Password"
+        app:passwordToggleEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/custom_edittext_border"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="10dp"
+        >
+
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#30ECF2FF"
+            android:ems="18"
+
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_walanyamo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-340dp"
+        android:layout_above="@id/number"
+        />
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+63 929 252 9928"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kween Yasmin"
+        android:textColor="#6B6B6B"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:textColor="#00494F"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="415dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not you?"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="590dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch Account"
+        android:textColor="#00494F"
+        android:textStyle="bold"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="590dp"
+        />
+
+    <Button
+        android:id="@+id/BTlogin"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/round_button"
+        android:text="Log in" />
+
+
+</RelativeLayout>
